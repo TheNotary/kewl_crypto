@@ -4,6 +4,10 @@ require "kewl_crypto/version"
 
 module KewlCrypto
 
+  def self.new(string)
+    KewlCrypto.new(string)
+  end
+
   class KewlCrypto
     attr_reader :untouched
 
